@@ -41,7 +41,6 @@ func getFavouriteSnack(candyToEaten map[string]uint) (favouriteSnackSlice []stri
 }
 
 func findFavouriteSnack(customer []Customer) (favouriteSnack string) {
-	favouriteSnack = ""
 	candyToEaten := make(map[string]uint)
 
 	for _, customerInfo := range customer {
